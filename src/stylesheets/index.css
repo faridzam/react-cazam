@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+
+.webhead{
+	background-image: url("../assets/header-cazam-1.svg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+#burger-icon{
+	margin: 0%;
+	padding: 0%;
+	float: right;
+	cursor: pointer;
+	margin-top: 6px;
+	margin-right: 6px;
+}
+
+
+#burger-bar1{
+	margin: 0%;
+	padding: 0%;
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin-bottom: 6px;
+}
+#burger-bar1.bar1-open{
+	transform: rotate(-45deg);
+}
+#burger-bar1.bar1-close{
+	transform: rotate(0);
+}
+
+#burger-bar2{
+	margin: 0%;
+	padding: 0%;
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin-bottom: 6px;
+}
+#burger-bar2.bar2-open{
+	transform: translateX(10px);
+}
+#burger-bar2.bar2-close{
+	transform: translateX(0);
+}
+
+#burger-bar3{
+	margin: 0%;
+	padding: 0%;
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin-bottom: 6px;
+}
+#burger-bar3.bar3-open{
+	transform: rotate(45deg);
+}
+#burger-bar3.bar3-close{
+	transform: rotate(0);
+}
+
+.project-logo{
+	margin-left: 20px;
+	height: 100px;
+}
+
+.app-clock{
+	position: relative;
+	margin: 0%;
+	padding: 0%;
+	display: block;
+	float: right;
+	color: white;
+}
