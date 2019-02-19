@@ -1,5 +1,5 @@
 import React from 'react'
-import MenuOverlay from '../components/Menu-overlay'
+import MenuOverlay from './OverlayMenu'
 import mainLogo from '../assets/cazam-logo.svg'
 
 class Header extends React.Component{

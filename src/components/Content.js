@@ -1,5 +1,5 @@
 import React from 'react'
-import Quotes from './Quotes';
+import Quotes from './Quotes'
 
 class Content extends React.Component{
 

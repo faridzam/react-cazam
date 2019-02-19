@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import Content from '../components/Content'
+import Footer from '../components/Footer'
 
 class Mysite extends React.Component{
 
@@ -9,6 +10,7 @@ class Mysite extends React.Component{
             <div className="mySite">
                 <Header/>
                 <Content/>
+                <Footer/>
             </div>
         )
     }    
