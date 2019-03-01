@@ -14,8 +14,8 @@ body{
 	padding: 0%;
 	float: right;
 	cursor: pointer;
-	margin-top: 6px;
-	margin-right: 6px;
+	margin-top: 12px;
+	margin-right: 12px;
 }
 
 
@@ -62,6 +62,11 @@ body{
 }
 #burger-bar3.bar3-close{
 	transform: rotate(0);
+}
+
+.overlay-menu{
+	color: white;
+	background : rgba(0, 0, 0, 0.5);
 }
 
 .project-logo{
